@@ -1,0 +1,112 @@
+/* marveldetailpage.css */
+
+.detail-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .detail-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .character-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .header-info {
+    flex: 1;
+  }
+  
+  .character-name {
+    font-size: 2.5em;
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .character-description {
+    font-size: 1.2em;
+    color: #7f8c8d;
+  }
+  
+  .links {
+    margin-top: 10px;
+  }
+  
+  .links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+  }
+  
+  .detail-section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .comics-list,
+  .series-list,
+  .events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .comic-item,
+  .series-item,
+  .event-item {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .comic-item a,
+  .series-item a,
+  .event-item a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .detail-container{
+      margin-top: 60px;
+    }
+    .character-name {
+      font-size: 2em;
+    }
+  
+    .character-description {
+      font-size: 1em;
+    }
+  
+    .section-title {
+      font-size: 1.5em;
+    }
+  
+    .detail-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .character-image {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

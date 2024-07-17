@@ -1,0 +1,99 @@
+.card-container {
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: relative;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px; /* Example: Adjust as needed for your layout */
+  }
+  
+  .card-image {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .card-text {
+    padding-top: 10px; /* Adjust spacing */
+  }
+  
+  .category {
+    text-align: center;
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+  
+  .category-span {
+    padding: 8px 20px; /* Adjust padding */
+    border: 1px solid #313131;
+    background: #212121;
+    color: #fff;
+    border-radius: 27px;
+  }
+  
+  .title {
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold;
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .description-prod {
+    text-align: center;
+    height: fit-content;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .card-footer {
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .wcf-left,
+  .wcf-right {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .wcf-left {
+    margin-right: 10px; /* Adjust spacing */
+  }
+  
+  .price {
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+  }
+  
+  .buy-btn {
+    display: inline-block;
+    color: #212121;
+    text-align: center;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #212121;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .buy-btn:hover,
+  .buy-btn:active,
+  .buy-btn:focus {
+    border-color: skyblue;
+    background: skyblue;
+    color: #fff;
+    text-decoration: none;
+  }
+  

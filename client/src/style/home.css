@@ -1,0 +1,34 @@
+.home{
+    height: calc(100vh - 120px);
+    /* background-color: red; */
+}
+
+.home-1{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.marvels-hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .home{
+        margin-top: 100px;
+        height: calc(100vh - 270px);
+        background-color: red;
+    }
+    img{
+        border-radius: 10px;
+    }
+}

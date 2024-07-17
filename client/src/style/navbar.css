@@ -1,0 +1,144 @@
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.nav-bar-1{
+    height: 90px;
+    width: 10%;
+    /* background-color: green; */
+}
+
+.nav-bar-1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar-2{
+    height: 90px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+/* Updated input styling */
+input {
+    height: 30px; /* Fixed height for consistency */
+    width: 50%; /* Width remains the same */
+    border-radius: 15px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input:focus {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.nav-bar-3{
+    height: 90px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+/* Enhanced button styles */
+
+.nav-bar-3 button:nth-child(1),
+.nav-bar-3 button:nth-child(2) {
+    height: 40px;
+    width: 70px;
+    border-radius: 15px;
+    margin-left: 15px;
+    border: none;
+    background: linear-gradient(135deg, #42a5f5, #478ed1);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar-3 button:nth-child(1):hover,
+.nav-bar-3 button:nth-child(2):hover {
+    background: linear-gradient(135deg, #478ed1, #42a5f5);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar-3 button:nth-child(1):active,
+.nav-bar-3 button:nth-child(2):active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-bar{
+        display: block;
+        height: 150px;
+        width: 100%;
+        /* background-color: green; */
+    }
+    .nav-bar-1{
+        height: 90px;
+        width: 100%;
+        /* background-color: green; */
+    }
+
+.nav-bar-2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+/* Updated input styling */
+    input {
+        height: 30px; /* Fixed height for consistency */
+        width: 70%; /* Width remains the same */
+    }
+
+
+.nav-bar-3{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* background-color: yellow; */
+}
+/* Enhanced button styles */
+
+.nav-bar-3 button:nth-child(1),
+.nav-bar-3 button:nth-child(2) {
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(135deg, #42a5f5, #478ed1);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 2;
+}
+
+}
